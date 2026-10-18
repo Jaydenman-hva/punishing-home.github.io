@@ -3,15 +3,15 @@
 Als project heb ik Punishing Home van Thinker gekregen. Punishing Home is een smart home dat gebaseerd op het gedrag van de bewoner reageert met sancties zoals het vergrendelen of sluiten van deuren of toegang blokkeren van apparaten. 
 
 ## Inhoudsopgave
-1. [Oorspronkelijk Idee "Oorspronkelijk Idee"](#1-oorspronkelijk-idee)
-2. [Mijn rol "Mijn Rol"](#2-mijn-rol)
-3. [Experimenten "Experimenten en Prototyping"](#3-experimenten-en-prototyping)
-4. [Ontwerp- en technische keuzes "Ontwerp- en technische keuzes"](#4-ontwerp--en-technische-keuzes)
-5. [Problemen "Problemen"](#5-problemen)
-6. [Belangrijke Iteraties "Belangrijke Iteraties"](#6-belangrijke-iteraties)
-7. [Het Eindresultaat "Het Eindresultaat"](#7-het-eindresultaat)
-8. [Geleerd "Geleerd"](#8-geleerd)
-9. [Volgende Iteraties "Volgende Iteraties"](#9-volgende-iteraties)
+1. [Oorspronkelijk Idee](#1-oorspronkelijk-idee "Oorspronkelijk Idee")
+2. [Mijn rol](#2-mijn-rol "Mijn Rol")
+3. [Experimenten en Prototyping](#3-experimenten-en-prototyping "Experimenten en Prototyping")
+4. [Ontwerp- en Technische Keuzes](#4-ontwerp--en-technische-keuzes "Ontwerp- en Technische Keuzes")
+5. [Problemen](#5-problemen "Problemen")
+6. [Belangrijke Iteraties](#6-belangrijke-iteraties "Belangrijke Iteraties")
+7. [Het Eindresultaat](#7-het-eindresultaat "Het Eindresultaat")
+8. [Geleerd](#8-geleerd "Geleerd")
+9. [Volgende Iteraties](#9-volgende-iteraties "Volgende Iteraties")
 
 ## 1. Oorspronkelijk Idee
 
