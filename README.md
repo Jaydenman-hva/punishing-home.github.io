@@ -70,7 +70,7 @@ De belangrijkste iteraties zijn de schetsen en de kartonnen huizen. De huizen ko
 
 ### Sprint 2
 
-Belangrijkste iteraties zijn het script dat gegenereerd is door de LLM, door TTS laten uitspreken, en daarna het laten uitspreken samen met een persona wat dat mond beweegt wanneer de AI praat. Die wordt dat op de TV geprojecteerd. Die dan laten samen met een ventilator die aan gaat wanneer de AI praat en LEDs die roder worden naar mate de AI bozer wordt.
+Belangrijkste iteraties zijn het script dat gegenereerd is door de LLM, door TTS laten uitspreken, en daarna het laten uitspreken samen met een persona wat dat mond beweegt wanneer de AI praat. Die wordt dat op de TV geprojecteerd. Die dan laten samen met een ventilator die aan gaat wanneer de AI praat en LEDs die roder worden naar mate de AI bozer wordt. In de docs folder staat er 1st version.mp4 wat een van de eerste versies laat zien van hoe het eruit ziet wanneer de AI praat. Na een guerilla test bleek dat een vrouwelijke stem geen goed idee omdat het bepaalde emoties opwekte binnen onze tester. Daarom hebben we gekozen om espeak te gebruiken, een andere tts engine. Daarna gebruik gemaakt van een AnalyserNode om de output van de TTS te analyseren en de mond van de persona te laten bewegen op basis van de output van de TTS.
 
 ## 7. Het Eindresultaat
 
