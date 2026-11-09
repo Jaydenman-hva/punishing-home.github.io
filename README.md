@@ -60,7 +60,7 @@ Ik kwam problemen tegen bij het brainstormen over wat er allemaal in het smart h
 
 ### Sprint 2
 
-Tijdens sprint 2 wist ik niet hoe ik als eerst de LLM samen kon laten werken met TTS. Ik heb toen besloten om eerst alleen de LLM te gebruiken om het script te genereren en daarna pas TTS toe te voegen. Voor het verbinden had ik de stof gebruikt uit een van de eerste lessen die we hebben gekregen. Waarbij ik ollama heb gebruikt om de LLM te laten draaien en de output van de LLM te gebruiken als input voor TTS. Uiteindelijk heb ik het werkend gekregen en kan ik nu een script genereren met de LLM en dit script laten uitspreken door TTS.
+Tijdens sprint 2 wist ik niet hoe ik als eerst de LLM samen kon laten werken met TTS. Ik heb toen besloten om eerst alleen de LLM te gebruiken om het script te genereren en daarna pas TTS toe te voegen. Voor het verbinden had ik de stof gebruikt uit een van de eerste lessen die we hebben gekregen. Waarbij ik ollama heb gebruikt om de LLM te laten draaien en de output van de LLM te gebruiken als input voor TTS. Uiteindelijk heb ik het werkend gekregen en kan ik nu een script genereren met de LLM en dit script laten uitspreken door TTS met piper-tts. In folder docs is er een m4a file te vinden van het script dat gegenereerd is door de LLM en uitgesproken door piper-tts. Elke keer dat de applicatie wordt opgestart en een script wordt gegenereerd, wordt er een nieuw script aangemaakt.
 
 ## 6. Belangrijke Iteraties
 
@@ -70,7 +70,7 @@ De belangrijkste iteraties zijn de schetsen en de kartonnen huizen. De huizen ko
 
 ### Sprint 2
 
-Belangrijkste iteraties zijn het script dat gegenereerd is door de LLM, door TTS laten uitspreken, en daarna het laten uitspreken samen met een persona wat dat mond beweegt wanneer de AI praat. Die wordt dat op de TV geprojecteerd.
+Belangrijkste iteraties zijn het script dat gegenereerd is door de LLM, door TTS laten uitspreken, en daarna het laten uitspreken samen met een persona wat dat mond beweegt wanneer de AI praat. Die wordt dat op de TV geprojecteerd. Die dan laten samen met een ventilator die aan gaat wanneer de AI praat en LEDs die roder worden naar mate de AI bozer wordt.
 
 ## 7. Het Eindresultaat
 
