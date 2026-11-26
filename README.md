@@ -25,9 +25,13 @@ Als eerst begonnen we allemaal met het maken van schetsen en ideeën op doen van
 
 Het idee voor sprint twee was om een LLM te gebruiekn om de AI te laten praten met de gebruiker. Uiteindelijk hebben we besloten om TTS te gebruiken om de AI te laten praten en het praten met de AI laten wachten. 
 
+### Sprint 3
+
+Idee voor sprint 3 was om feedback te verwerken van Society 5.0 en apparaten te laten samen werken met de AI. De lichten samen laten werken met het script. Waarbij dan de lichten langzaam rood worden naar mate de AI praat. Ook dat LED strip dan wit wordt bij de reboot. Daarnaast ook dat het grote licht langzaam flikkert.
+
 ## 2. Mijn rol
 
-Mijn rol binnen het project is de AI werkend krijgen en zorgen dat er AI plaatsvind binnen het project. Ideeën voor AI binnen Punishing Home is TTS, STT, Object recognition en een LLM. TTS en STT voor het praten met de AI en gesprekken kunnen voeren met het huis. Object recognition om te herkennen wanneer de bewoner thuis is en of alle klusjes gedaan zijn die gedaan moeten worden. Een LLM om antwoorden te geven op de antwoorden van de gebruiker.
+Mijn rol binnen het project is de AI werkend krijgen en zorgen dat er AI plaatsvind binnen het project. Ideeën voor AI binnen Punishing Home is TTS, STT, Object recognition en een LLM. TTS en STT voor het praten met de AI en gesprekken kunnen voeren met het huis. Object recognition om te herkennen wanneer de bewoner thuis is en of alle klusjes gedaan zijn die gedaan moeten worden. Een LLM om antwoorden te geven op de antwoorden van de gebruiker. In sprint 3 kwam het idee naar boven om ook classification te gebruiken om te herkennen wat voor emotie de user toont.
 
 ## 3. Experimenten en Prototyping
 
@@ -52,6 +56,10 @@ Na het vergelijken van alle schetsen die we individueel hebben gemaakt samen met
 
 Besloten om eerst alleen de een LLM het script te laten genereren en de STT later toe te voegen. De reden hiervoor is dat het script de basis is van het huis en dat we eerst een goed script moeten hebben voordat we de AI kunnen laten praten met de gebruiker. Ik heb ook gekozen voor een lichte versie van de LLM te gebruiken omdat deze sneller is en minder resources gebruikt, omdat we ook van plan zijn om de AI op een esp/pico te laten draaien. Kijken of het wel mogelijk is om zo een lichte AI te draaien.
 
+### Sprint 3
+
+In sprint 3 heb ik vooral gewerkt/gefinetuned, uit de feedback van society 5.0 bleek dat de AI te veel praatte en dat gebruikers zo afgeleid werden. Het was te eentonig. Daardoor werd dat mijn taak in sprint 3, meer testen wat mensen eng vinden/mensen aan het denken laat zetten. Zo hadden we dan meerdere mensen geinterviewed om te vragen welke volgorde van evenementen mensen het engste vinden. Daaruit bleek dat bijvoorbeeld het tonen van het camera beeld in het begin bleek dan het engst te zijn voor mensen waar je dan gelijk kan zien dat er iets mis is. 
+
 ## 5. Problemen
 
 ### Sprint 1
@@ -61,6 +69,10 @@ Ik kwam problemen tegen bij het brainstormen over wat er allemaal in het smart h
 ### Sprint 2
 
 Tijdens sprint 2 wist ik niet hoe ik als eerst de LLM samen kon laten werken met TTS. Ik heb toen besloten om eerst alleen de LLM te gebruiken om het script te genereren en daarna pas TTS toe te voegen. Voor het verbinden had ik de stof gebruikt uit een van de eerste lessen die we hebben gekregen. Waarbij ik ollama heb gebruikt om de LLM te laten draaien en de output van de LLM te gebruiken als input voor TTS. Uiteindelijk heb ik het werkend gekregen en kan ik nu een script genereren met de LLM en dit script laten uitspreken door TTS met piper-tts. In folder docs is er een m4a file te vinden van het script dat gegenereerd is door de LLM en uitgesproken door piper-tts. Elke keer dat de applicatie wordt opgestart en een script wordt gegenereerd, wordt er een nieuw script aangemaakt.
+
+### Sprint 3
+
+Problemen die ik ben tegen gekomen in sprint 3 waren lichten goed laten samenwerken met de rest en interviews regelen voor aanpassingen aan het script. Waarbij er al dus feedback uit Society 5.0 is gekomen, was meer gerichte feedback nodig om te kijken wat het beste in het script zou passen om dus te laten zien op FLOOR. 
 
 ## 6. Belangrijke Iteraties
 
