@@ -72,7 +72,9 @@ Tijdens sprint 2 wist ik niet hoe ik als eerst de LLM samen kon laten werken met
 
 ### Sprint 3
 
-Problemen die ik ben tegen gekomen in sprint 3 waren lichten goed laten samenwerken met de rest en interviews regelen voor aanpassingen aan het script. Waarbij er al dus feedback uit Society 5.0 is gekomen, was meer gerichte feedback nodig om te kijken wat het beste in het script zou passen om dus te laten zien op FLOOR. Ook moest ik kijken hoe ik de lichten goed kan laten samenwerken met de rest van het huis. Uiteindelijk heb ik ervoor gekozen om de lichten langzaam rood te laten worden naar mate de AI praat en dat het grote licht langzaam flikkert. Ook heb ik ervoor gekozen om de LED strip wit te laten worden bij de reboot van het huis. 
+Problemen die ik ben tegen gekomen in sprint 3 waren lichten goed laten samenwerken met de rest en interviews regelen voor aanpassingen aan het script. Waarbij er al dus feedback uit Society 5.0 is gekomen, was meer gerichte feedback nodig om te kijken wat het beste in het script zou passen om dus te laten zien op FLOOR. Daarom heb ik meerdere mensen geinterviewed om te kijken wat het engste is en wat het beste in het script past. Door meerdere scenario's te laten zien en te vragen wat het engste is, konden we een beter beeld krijgen van wat het beste in het script past.
+
+Ook moest ik kijken hoe ik de lichten goed kan laten samenwerken met de rest van het huis. Uiteindelijk heb ik ervoor gekozen om de lichten langzaam rood te laten worden naar mate de AI praat en dat het grote licht langzaam flikkert. Ook heb ik ervoor gekozen om de LED strip wit te laten worden bij de reboot van het huis. 
 
 ## 6. Belangrijke Iteraties
 
@@ -85,7 +87,8 @@ De belangrijkste iteraties zijn de schetsen en de kartonnen huizen. De huizen ko
 Belangrijkste iteraties zijn het script dat gegenereerd is door de LLM, door TTS laten uitspreken, en daarna het laten uitspreken samen met een persona wat dat mond beweegt wanneer de AI praat. Die wordt dat op de TV geprojecteerd. Die dan laten samen met een ventilator die aan gaat wanneer de AI praat en LEDs die roder worden naar mate de AI bozer wordt. In de docs folder staat er 1st version.mp4 wat een van de eerste versies laat zien van hoe het eruit ziet wanneer de AI praat. Na een guerilla test bleek dat een vrouwelijke stem geen goed idee omdat het bepaalde emoties opwekte binnen onze tester. Daarom hebben we gekozen om espeak te gebruiken, een andere tts engine. Daarna gebruik gemaakt van een AnalyserNode om de output van de TTS te analyseren en de mond van de persona te laten bewegen op basis van de output van de TTS.
 
 ### Sprint 3
-Belangrijkste iteraties zijn het aanpassen van het script op basis van de feedback die we hebben gekregen van Society 5.0 en de interviews die we hebben gehouden. Scripts bevat nu dus meer variatie en is minder eentonigheid. Ook dat de lichten dus mee met de ervaring veranderen.
+
+Belangrijkste iteraties zijn het aanpassen van het script op basis van de feedback die we hebben gekregen van Society 5.0 en de interviews die we hebben gehouden. Scripts bevat nu dus meer variatie en is minder eentonig. Ook dat de lichten dus mee met de ervaring veranderen. 
 
 ## 7. Het Eindresultaat
 
@@ -97,6 +100,10 @@ Eind van deze sprint zijn twee kartonnnen huizen gemaakt die we kunnen gebruiken
 
 Eind van deze sprint is een script dat gegenereerd is door de LLM en dit script wordt uitgesproken door TTS. Ook is er een persona die op de TV geprojecteerd wordt en die mond beweegt wanneer de AI praat. Het laat ook een het beeld zien van de kamer waar de gebruiker zich bevindt. Een ventilator die aan gaat wat laat zien dat de AI in controle van het huis is. LEDs die roder worden naar mate de AI bozer wordt.
 
+### Sprint 3
+
+Eind van deze sprint is een script dat aangepast is op basis van de feedback die we hebben gekregen van Society 5.0 en de interviews die we hebben gehouden. Scripts bevat nu dus meer variatie en is minder eentonig. Ook dat de lichten dus mee met de ervaring veranderen.
+
 ## 8. Geleerd
 
 ### Sprint 1
@@ -107,6 +114,10 @@ In deze sprint heb ik geleerd dat het belangrijk is om goed te brainstormen en i
 
 In deze sprint heb ik geleerd hoe ik een LLM kan gebruiken om een script te genereren en dit script kan laten uitspreken door TTS. Ook heb ik geleerd dat een lichte AI niet altijd de beste keuze is, omdat het minder resources gebruikt en sneller is, maar het kan ook minder goed presteren dan een zwaardere AI. Ook heb ik geleerd dat het belangrijk is om te testen en te experimenteren met verschillende AI's om te zien welke het beste werkt voor ons project. Met behulp van de feedback die we hebben gekregen op society 5.0 hebben we een richtlijn om op te werken.
 
+### Sprint 3
+
+In deze sprint heb ik geleerd dat het belangrijk is om feedback te krijgen van gebruikers en dit te verwerken in het script. Ook heb ik geleerd dat het belangrijk is om te testen en te experimenteren met verschillende scenario's om te zien wat het beste werkt voor ons project. Ook heb ik geleerd dat het belangrijk is om de lichten goed te laten samenwerken met de rest van het huis.
+
 ## 9. Volgende Iteraties
 
 ### Sprint 1
@@ -116,3 +127,7 @@ In de volgende sprints gaan we de kartonnen huizen gebruiken als richtlijnen voo
 ### Sprint 2
 
 In de volgende sprints gaan we kijken naar de mogelijkheden van de AI en hoe we deze kunnen implementeren in het huis. We gaan ook kijken naar de mogelijkheden van STT en hoe we deze kunnen implementeren in het huis. Ook gaan we kijken naar de mogelijkheden van object recognition en hoe we deze kunnen implementeren in het huis. Meer apparaten aansluiten aan het smart home. 
+
+### Sprint 3
+
+Volgende iteraties zijn het maken van classifactions en dat dan laten werken op een camera die dan gericht is op de gebruiker. Gebruik maken van een camera om te kijken wat voor emotie de gebruiker toont en dat dan gebruiken om het script aan te passen. Aan het einde van de experience dan de gebruiker een bon/sticker geven waarop dan de emoties laat zien van de gebruiker tijdens de experience. Ook meer apparaten aansluiten aan het smart home. Blijven testen bij het maken van nieuwe functies en dan kijken of het goed werkt en of het goed samenwerkt met de rest van het huis. Ideeën zijn om een boor te gebruiken voor het geluid om zo dan bijvoorbeeld de gebruiker te laten schrikken.
