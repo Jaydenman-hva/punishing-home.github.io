@@ -72,7 +72,7 @@ Tijdens sprint 2 wist ik niet hoe ik als eerst de LLM samen kon laten werken met
 
 ### Sprint 3
 
-Problemen die ik ben tegen gekomen in sprint 3 waren lichten goed laten samenwerken met de rest en interviews regelen voor aanpassingen aan het script. Waarbij er al dus feedback uit Society 5.0 is gekomen, was meer gerichte feedback nodig om te kijken wat het beste in het script zou passen om dus te laten zien op FLOOR. 
+Problemen die ik ben tegen gekomen in sprint 3 waren lichten goed laten samenwerken met de rest en interviews regelen voor aanpassingen aan het script. Waarbij er al dus feedback uit Society 5.0 is gekomen, was meer gerichte feedback nodig om te kijken wat het beste in het script zou passen om dus te laten zien op FLOOR. Ook moest ik kijken hoe ik de lichten goed kan laten samenwerken met de rest van het huis. Uiteindelijk heb ik ervoor gekozen om de lichten langzaam rood te laten worden naar mate de AI praat en dat het grote licht langzaam flikkert. Ook heb ik ervoor gekozen om de LED strip wit te laten worden bij de reboot van het huis. 
 
 ## 6. Belangrijke Iteraties
 
@@ -83,6 +83,9 @@ De belangrijkste iteraties zijn de schetsen en de kartonnen huizen. De huizen ko
 ### Sprint 2
 
 Belangrijkste iteraties zijn het script dat gegenereerd is door de LLM, door TTS laten uitspreken, en daarna het laten uitspreken samen met een persona wat dat mond beweegt wanneer de AI praat. Die wordt dat op de TV geprojecteerd. Die dan laten samen met een ventilator die aan gaat wanneer de AI praat en LEDs die roder worden naar mate de AI bozer wordt. In de docs folder staat er 1st version.mp4 wat een van de eerste versies laat zien van hoe het eruit ziet wanneer de AI praat. Na een guerilla test bleek dat een vrouwelijke stem geen goed idee omdat het bepaalde emoties opwekte binnen onze tester. Daarom hebben we gekozen om espeak te gebruiken, een andere tts engine. Daarna gebruik gemaakt van een AnalyserNode om de output van de TTS te analyseren en de mond van de persona te laten bewegen op basis van de output van de TTS.
+
+### Sprint 3
+Belangrijkste iteraties zijn het aanpassen van het script op basis van de feedback die we hebben gekregen van Society 5.0 en de interviews die we hebben gehouden. Scripts bevat nu dus meer variatie en is minder eentonigheid. Ook dat de lichten dus mee met de ervaring veranderen.
 
 ## 7. Het Eindresultaat
 
