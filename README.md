@@ -74,7 +74,7 @@ Tijdens sprint 2 wist ik niet hoe ik als eerst de LLM samen kon laten werken met
 
 Problemen die ik ben tegen gekomen in sprint 3 waren lichten goed laten samenwerken met de rest en interviews regelen voor aanpassingen aan het script. Waarbij er al dus feedback uit Society 5.0 is gekomen, was meer gerichte feedback nodig om te kijken wat het beste in het script zou passen om dus te laten zien op FLOOR. Daarom heb ik meerdere mensen geinterviewed om te kijken wat het engste is en wat het beste in het script past. Door meerdere scenario's te laten zien en te vragen wat het engste is, konden we een beter beeld krijgen van wat het beste in het script past.
 
-Ook moest ik kijken hoe ik de lichten goed kan laten samenwerken met de rest van het huis. Uiteindelijk heb ik ervoor gekozen om de lichten langzaam rood te laten worden naar mate de AI praat en dat het grote licht langzaam flikkert. Ook heb ik ervoor gekozen om de LED strip wit te laten worden bij de reboot van het huis. 
+Ook moest ik kijken hoe ik de lichten goed kan laten samenwerken met de rest van het huis. Uiteindelijk heb ik ervoor gekozen om de lichten langzaam rood te laten worden naar mate de AI praat en dat het grote licht langzaam flikkert. Ook heb ik ervoor gekozen om de LED strip wit te laten worden bij de reboot van het huis. Ik wist niet hoe ik dit moest doen, dus ik had naar andere voorbeelden gekeken die ik op het internet zag. Bijvoorbeeld door naar stukjes code te kijken van andere mensen die dit al hadden gedaan door filmen te kijken van hoe ze dit hadden gedaan/stack overflow.
 
 ## 6. Belangrijke Iteraties
 
